@@ -12,7 +12,6 @@ const nodemailer = require('nodemailer');
 const multer = require('multer');
 const fs = require('fs');
 const SecretKey = "ghfhdywgedv";
-mongoose.connect('mongodb+srv://blog-app:7786778677867786aaaa....@cluster0.9kksocu.mongodb.net/?retryWrites=true&w=majority');
 const app = express();
 app.use(express.json());
 app.use(cookieParser());
